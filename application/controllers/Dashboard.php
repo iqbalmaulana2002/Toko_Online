@@ -14,7 +14,7 @@ Class Dashboard extends CI_Controller {
 	{
 		$data['judul'] = 'Halaman Dashboard';
 		$data['barang'] = $this->M_base->get_data('tb_barang')->result();
-		$this->load->view('templates/header', $data);
+		$this->load->view('templates/ bvcnmhjt vttvheader', $data);
 		$this->load->view('templates/sidebar');
 		$this->load->view('dashboard', $data);
 		$this->load->view('templates/footer');
